@@ -1,3 +1,29 @@
+/* ===========================================================
+
+    The unitConverter() function recieve 3 parameters.
+    unit: The unit value you train to convert
+    from: The initial measure of convertion
+    to: The final measure of convertion
+
+    Types of measures that can be converted:
+    
+    International System
+    km: Kilometer
+    hm: Hectometer
+    dam: Decameter
+    m: Meter
+    dm: Decimeter
+    cm: Centimeter
+    mm: Milimeter
+
+    American System
+    mi: Mile
+    yd: Yard
+    ft: Foot
+    in: Inch
+
+   =========================================================== */
+
 const int_sys_units = ['km', 'hm', 'dam', 'm', 'dm', 'cm', 'mm']
 const bri_sys_units = ['mi','yd','ft','in']
 const bri_sys_ratio = [1, 1760, 5280, 63360]
